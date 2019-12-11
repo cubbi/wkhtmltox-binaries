@@ -11,6 +11,8 @@ arch = case RUBY_PLATFORM
       'trusty-amd64'
     when /precise/
       'precise-amd64'
+    when /buster/
+      'buster-amd64'
     when /CentOS release 6\./
       'centos6-amd64'
     when /CentOS release 7\./
